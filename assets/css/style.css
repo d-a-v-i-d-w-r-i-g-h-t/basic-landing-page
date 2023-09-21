@@ -1,0 +1,67 @@
+
+/* Universal selector */
+
+* {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Element selectors */
+
+header {
+  width: 100%;
+  background-color: lightblue;
+  /* header is fixed to the top of the page on scroll */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0px;
+  padding: 0px;
+}
+  
+nav {
+  line-height: 30px;
+  background-color: lightseagreen;
+  margin: 0px;
+  padding: 0px;
+}
+  
+h1 {
+  text-align: center;
+}
+  
+h2 {
+  text-align: center;
+}
+  
+  
+main{
+  position: absolute;
+  top: 150px;
+}
+
+a {
+  margin: 10px;
+}
+
+img {
+  display: block;
+  max-width: 75%;
+  margin: auto
+}
+
+/* class selectors */
+
+.image-border {
+  border: 10px solid darkgreen;
+}
+
+.image-padding {
+  padding: 15px;
+  background-color: lightgray;
+}
+
+.contact_form {
+  background-color: lightblue
+}
